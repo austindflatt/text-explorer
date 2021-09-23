@@ -29,6 +29,10 @@ while (true) {
     } else {
         console.log("Error!");
     }
+
+    if (x1 === -3 && y1 === 2) {
+        console.log("In the meadow lies a Golden Keyboard. Game over, you win!");
+        break
+    }
 }
 
-console.log("In the meadow lies a Golden Keyboard. Game over, you win!");

@@ -3,6 +3,8 @@ const prompt = require('prompt-sync')({ sigint: true });
 let x1= 0;
 let y1 = 0;
 
+console.log("Welcome to the world of Terminal. Your goal is to find the Golden Keyboard.")
+
 while (true) {
 
     const userMove = prompt(`You find yourself in a forest. Trees tower around you.\n 
@@ -28,3 +30,5 @@ while (true) {
         console.log("Error!");
     }
 }
+
+console.log("In the meadow lies a Golden Keyboard. Game over, you win!");
